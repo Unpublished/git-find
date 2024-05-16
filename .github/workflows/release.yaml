@@ -33,7 +33,7 @@ jobs:
           toolchain: ${{ matrix.rust_toolchain }}
           override: true
       - uses: davidB/rust-cargo-make@v1
-      - uses: actions/checkout@v4.1.5
+      - uses: actions/checkout@v4.1.6
       - name: Make zip-release-ci-flow
         run: cargo make --disable-check-for-updates --profile ${{ matrix.os.profile }} zip-release-ci-flow
       - name: Upload to gitHub release
