@@ -30,7 +30,7 @@ gtmpl = "0.7"
 gtmpl_derive = "0.5"
 gtmpl_value = "0.5"
 clap = { version = "4", features = ["derive"] }
-git2 = { version = "0.20", features = [], default-features = false }
+git2 = { version = "0.21", features = [], default-features = false }
 regex = "1"
 
 [dev-dependencies]
